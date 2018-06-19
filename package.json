@@ -4,7 +4,9 @@
   "description": "sort numbers with bubble or merge sort",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch --recursive",
+    "pretest" : "eslint --ignore-path .gitignore .", 
+    "test": "mocha --recursive",
+    "test:watch": "mocha --watch --recursive",
     "lint": "eslint --ignore-path .gitignore",
     "start": "node ."
   },
