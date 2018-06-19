@@ -1,0 +1,23 @@
+{
+  "name": "sort-backend",
+  "version": "0.0.1",
+  "description": "sort numbers with bubble or merge sort",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --watch --recursive",
+    "lint": "eslint --ignore-path .gitignore",
+    "start": "node ."
+  },
+  "author": "Prasanth Vaaheeswaran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "helmet": "3.12.1",
+    "morgan": "1.9.0"
+  },
+  "devDependencies": {
+    "chai": "4.1.2",
+    "mocha": "5.2.0"
+  }
+}
